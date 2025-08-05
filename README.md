@@ -18,8 +18,10 @@
 ### Структура
 `tests/` - тесты эндпоинтов <br>
 `src/` - исходный код <br>
+<br>
 `src/main.py` - файл для запуска, совмещает все роуты в одно приложение <br>
+<br>
 `src/routes/` - эндпоинты для подключения к `main.py` <br>
 `src/db/` - подключение к базе данных и CRUD <br>
-`src/models` - модели pydantic <br>
+`src/models/` - модели pydantic <br>
 `src/alembic/` - миграции <br>
